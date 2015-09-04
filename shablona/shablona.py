@@ -3,7 +3,7 @@ import pandas as pd
 from matplotlib import mlab 
 from scipy.special import erf
 import scipy.optimize as opt
-from constants import CONSTANT1
+from . import CONSTANT1
 
 def transform_data(data): 
     """ 
