@@ -4,7 +4,6 @@ from matplotlib import mlab
 from scipy.special import erf
 import scipy.optimize as opt
 
-
 def transform_data(data): 
     """ 
     Function that takes experimental data and gives us the 
@@ -196,3 +195,7 @@ class Fit(object):
             values of the independent variable.
         """
         return self.model.func(x, *self.params)
+
+def printConstamt():
+    print CONSTANT1
+    return None
