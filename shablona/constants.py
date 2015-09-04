@@ -1,2 +1,1 @@
-import __builtin__ as builtins
-builtins.CONSTANT1 = 5
+CONSTANT1 = 5
